@@ -6,6 +6,7 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import "./style.css";
 
 function Footer() {
   let date = new Date();
@@ -14,13 +15,15 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Somnath Roy</h3>
+          <h3 className="text-white text-lg my-2">
+            Designed and Developed by Somnath Roy
+          </h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} SR</h3>
+          <h3 className="text-white text-lg my-2">Copyright © {year} SR</h3>
         </Col>
-        <Col md="4" className="footer-body">
-          <ul className="footer-icons">
+        <Col md="4" className="footer-body text-white text-lg my-2">
+          <ul className="flex flex-row justify-center space-x-4 pt-15 relative pl-0">
             <li className="social-icons">
               <a
                 href="https://github.com/MrSomnathRoy"

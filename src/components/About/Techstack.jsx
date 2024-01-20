@@ -8,16 +8,13 @@ import {
   DiMongodb,
   DiGit,
 } from "react-icons/di";
-import {
-  SiMysql,
-  SiExpress,
-  SiTailwindcss,
-} from "react-icons/si";
+import { SiMysql, SiExpress, SiTailwindcss } from "react-icons/si";
 
-import {AiOutlineHtml5} from "react-icons/ai";
+import { AiOutlineHtml5 } from "react-icons/ai";
+
 function Techstack() {
   return (
-    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+    <Row className="flex justify-center  items-center pb-50">
       <Col xs={4} md={2} className="tech-icons">
         <CgCPlusPlus />
       </Col>
@@ -46,8 +43,8 @@ function Techstack() {
         <DiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiMysql/>
-      </Col>   
+        <SiMysql />
+      </Col>
     </Row>
   );
 }

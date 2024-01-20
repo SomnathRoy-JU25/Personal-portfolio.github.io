@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+// import myImg from "../../Assets/avatar.svg";
 import myImg from "../../Assets/My Photo.jpg";
 
 import Tilt from "react-parallax-tilt";
@@ -12,14 +13,14 @@ import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
   return (
-    <Container fluid className="home-about-section" id="about">
+    <Container fluid className="relative py-70" id="about">
       <Container>
         <Row>
-          <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
+          <Col md={8} className="text-white pt-100 pb-20 text-center">
+            <h1 className="text-2xl pt-10">
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
-            <p className="home-about-body">
+            <p className="pt-50 text-lg text-left">
               I fell in love with programming and I have at least learnt
               something, I think… 🤷‍♂️
               <br />
@@ -54,56 +55,55 @@ function Home2() {
             </p>
           </Col>
 
-          <Col md={4} className="myAvtar">
+          <Col md={4} className="myAvtar p-2">
             <Tilt>
-              <img src={myImg} style={{ borderRadius: "25px" }} className="img-fluid" alt="avatar" />
+              <img src={myImg} className="img-fluid rounded-2xl" alt="avatar" />
             </Tilt>
           </Col>
-
         </Row>
         <Row>
-          <Col md={12} className="home-about-social">
+          <Col md={12} className="text-center pt-25 text-white">
             <h1>FIND ME ON</h1>
             <p>
               Feel free to <span className="purple">connect </span>with me
             </p>
-            <ul className="home-about-social-links">
-              <li className="social-icons">
+            <ul className="flex flex-row justify-center space-x-4 pt-15 relative pl-0">
+              <li className="inline-block pr-15 pl-15">
                 <a
                   href="https://github.com/MrSomnathRoy"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="text-purple-800 relative w-10 h-10 flex items-center justify-center text-lg leading-10 bg-white border-2 border-purple-800 rounded-full transition duration-300 ease-in-out transform hover:scale-110 hover:shadow-lg"
                 >
                   <AiFillGithub />
                 </a>
               </li>
-              <li className="social-icons">
+              <li className="inline-block pr-15 pl-15">
                 <a
                   href="https://twitter.com/"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="text-purple-800 relative w-10 h-10 flex items-center justify-center text-lg leading-10 bg-white border-2 border-purple-800 rounded-full transition duration-300 ease-in-out transform hover:scale-110 hover:shadow-lg"
                 >
                   <AiOutlineTwitter />
                 </a>
               </li>
-              <li className="social-icons">
+              <li className="inline-block pr-15 pl-15">
                 <a
                   href="https://www.linkedin.com/in/somnath-roy-jadavpur-university/"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="text-purple-800 relative w-10 h-10 flex items-center justify-center text-lg leading-10 bg-white border-2 border-purple-800 rounded-full transition duration-300 ease-in-out transform hover:scale-110 hover:shadow-lg"
                 >
                   <FaLinkedinIn />
                 </a>
               </li>
-              <li className="social-icons">
+              <li className="inline-block pr-15 pl-15">
                 <a
                   href="https://www.instagram.com/somnath_roy0340"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour home-social-icons"
+                  className="text-purple-800 relative w-10 h-10 flex items-center justify-center text-lg leading-10 bg-white border-2 border-purple-800 rounded-full transition duration-300 ease-in-out transform hover:scale-110 hover:shadow-lg"
                 >
                   <AiFillInstagram />
                 </a>

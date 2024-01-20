@@ -10,7 +10,7 @@ import {
 
 function Toolstack() {
   return (
-    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+    <Row className="flex justify-center  items-center pb-50">
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
       </Col>
