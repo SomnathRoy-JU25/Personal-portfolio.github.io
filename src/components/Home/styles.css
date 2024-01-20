@@ -45,7 +45,7 @@
 
   
   .home-section {
-    background-image: var(--image-gradient), url(./Assets/bg-img.jpg);
+    background-image: var(--image-gradient), url(../../Assets/bg-img.jpg);
   }
   
   
