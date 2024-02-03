@@ -37,10 +37,11 @@ function Projects() {
             <ProjectCards
               imgPath={RazorPayClone}
               isBlog={false}
-              title="RazorPay-Clone"
-              description="It's a website that has been designed to mimic the design of the popular Indian payment gateway, Razorpay. "
-              ghLink="https://github.com/MrSomnathRoy/RazorPay-Clone"
-              demoLink="https://razorpay-copy.netlify.app/"
+              title="Save Memories"
+              description="Designed and implemented a simple social media application allowing users to post and share significant life
+events, showcasing strong problem-solving skills and attention to user experience. "
+              ghLink="https://github.com/SomnathRoy-JU25/Save-Memories-App"
+              demoLink="https://save-memories-app.vercel.app/"
             />
           </Col>
 
