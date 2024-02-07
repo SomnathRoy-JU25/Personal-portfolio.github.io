@@ -28,7 +28,7 @@ function Projects() {
               isBlog={false}
               title="Skill Teach - A Edtech Platform"
               description="Skill Teach is a fully functional ed-tech platform that enables users to create, consume, and rate educational content. The platform is built using the MERN stack, which includes ReactJS, NodeJS, MongoDB, and ExpressJS "
-              ghLink="https://github.com/MrSomnathRoy/Skill-Teach.github.io"
+              ghLink="https://skill-teach-somnath-roy.vercel.app/"
               demoLink="https://skill-teach-somnath-roy.vercel.app/"
             />
           </Col>
@@ -40,7 +40,7 @@ function Projects() {
               title="Save Memories"
               description="Designed and implemented a simple social media application allowing users to post and share significant life
 events, showcasing strong problem-solving skills and attention to user experience. "
-              ghLink="https://github.com/SomnathRoy-JU25/Save-Memories-App"
+              ghLink="https://save-memories-app.vercel.app/"
               demoLink="https://save-memories-app.vercel.app/"
             />
           </Col>
@@ -51,7 +51,7 @@ events, showcasing strong problem-solving skills and attention to user experienc
               isBlog={false}
               title="Weather-App"
               description="A Weather App from where you can know about the Weather of your locality and other places "
-              ghLink="https://github.com/MrSomnathRoy/Weather-App/"
+              ghLink="https://mrsomnathroy.github.io/Weather-App/"
               demoLink="https://mrsomnathroy.github.io/Weather-App/"
             />
           </Col>
@@ -62,7 +62,7 @@ events, showcasing strong problem-solving skills and attention to user experienc
               isBlog={false}
               title="Password Generator"
               description="Developed a dynamic and user-friendly website utilizing HTML, CSS, and JavaScript to generate secure and unique passwords on demand "
-              ghLink="https://github.com/MrSomnathRoy/Password-Generator"
+              ghLink="https://mrsomnathroy.github.io/Password-Generator/"
               demoLink="https://mrsomnathroy.github.io/Password-Generator/"
             />
           </Col>
@@ -77,7 +77,7 @@ events, showcasing strong problem-solving skills and attention to user experienc
               listings, implemented an intuitive cart system with add-to-cart and
               remove-from-cart features, showcasing my skills in responsive
               design, state management, and front-end development."
-              ghLink="https://github.com/MrSomnathRoy/Shopping-Cart.github.io"
+              ghLink="https://sr-shopping-cart.netlify.app/"
               demoLink="https://sr-shopping-cart.netlify.app/"
             />
           </Col>

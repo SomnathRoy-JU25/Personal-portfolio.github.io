@@ -7,6 +7,8 @@ import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
 import { ImBlog } from "react-icons/im";
+import { RiContactsLine } from "react-icons/ri";
+
 import {
   AiFillStar,
   AiOutlineHome,
@@ -100,7 +102,7 @@ function NavBar() {
                 </div>
               </Nav.Link>
             </Nav.Item>
-
+           
             <Nav.Item>
               <Nav.Link
                 as={Link}
@@ -115,8 +117,26 @@ function NavBar() {
                 </div>
               </Nav.Link>
             </Nav.Item>
-
+             
             <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/contactUs"
+                onClick={() => updateExpanded(false)}
+              >
+                <div className="flex flex-row p-0 space-x-1.5 items-center">
+                  <div>
+                    {" "}
+                    <RiContactsLine 
+                      style={{ marginBottom: "2px" }}
+                    />{" "}
+                  </div>
+                  <div> Contact Us</div>
+                </div>
+              </Nav.Link>
+            </Nav.Item>
+
+            {/* <Nav.Item>
               <Nav.Link href="https://skill-teach-somnath-roy.vercel.app/" target="_blank" rel="noreferrer">
                 <div className="flex flex-row p-0 space-x-1.5 items-center">
                   <div>
@@ -125,7 +145,7 @@ function NavBar() {
                   <div>Skill Teach</div>
                 </div>
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item> */}
 
             <Nav.Item className="fork-btn">
               <Button
@@ -143,6 +163,7 @@ function NavBar() {
                 </div>
               </Button>
             </Nav.Item>
+
           </Nav>
         </Navbar.Collapse>
       </Container>
