@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
 import { useRef } from "react";
-import emailjs from "ailjs/browser@em";
+import emailjs from "@emailjs/browser";
 import {toast} from "react-hot-toast";
 
 import CountryCode from "../../data/countrycode.json";
