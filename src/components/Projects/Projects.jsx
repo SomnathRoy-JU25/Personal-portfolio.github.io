@@ -8,6 +8,7 @@ import WeatherApp from "../../Assets/Projects/Project4.png";
 import RazorPayClone from "../../Assets/Projects/project3.png";
 import PasswordGenerator from "../../Assets/Projects/Project2.png";
 import skillTeach from "../../Assets/Projects/Project1.png";
+import medicare from "../../Assets/Projects/Medicare.png";
 import "./Projects.css";
 
 function Projects() {
@@ -32,7 +33,16 @@ function Projects() {
               demoLink="https://skill-teach-somnath-roy.vercel.app/"
             />
           </Col>
-
+          <Col md={4} className="project-card">
+            <ProjectCards
+              imgPath={medicare}
+              isBlog={false}
+              title="Medicare - A Healthcare Platform"
+              description="Medi-Care is a web-based healthcare application that provides comprehensive medical support, including doctor appointment booking, online video-calling doctor consultations, blood donation coordination, AI-powered health assistance, and emergency medical aid."
+              ghLink="https://github.com/SomnathRoy-JU25/Medi-Care"
+              demoLink="https://medicare-app-somnath-roy.vercel.app/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCards
               imgPath={RazorPayClone}
