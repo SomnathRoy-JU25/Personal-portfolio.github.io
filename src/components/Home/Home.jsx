@@ -3,7 +3,8 @@ import Particle from "../Others/Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
 import "./styles.css";
-import homeLogo from "../../Assets/Home.png";
+// import homeLogo from "../../Assets/Home.png";
+import homeLogo from "../../Assets/4s.gif";
 
 function Home() {
   return (
@@ -33,11 +34,11 @@ function Home() {
               </div>
             </div>
 
-            <div className="md:w-1/2 px-4 pb-20">
+            <div className="md:w-1/2 px-4 pb-20 ">
               <img
                 src={homeLogo}
                 alt="home pic"
-                className="img-fluid max-h-450"
+                className="img-fluid c:\Users\SOMNATH\Desktop\Resume.pdf rounded-full bg-transparent"
               />
             </div>
           </div>

@@ -2,7 +2,10 @@ import React from "react";
 import Tilt from "react-parallax-tilt";
 import { AiFillGithub, AiOutlineTwitter, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-import myImg from "../../Assets/My Photo.jpg";
+// import myImg from "../../Assets/MyPhoto.png";
+import myImg from "../../Assets/MyPhoto.png";
+
+
 
 function Home2() {
   return (
@@ -48,9 +51,9 @@ function Home2() {
             </p>
           </div>
 
-          <div className="md:w-1/3 lg:w-1/4 p-2 pt-4 ml-auto">
+          <div className="md:w-1/3 lg:w-1/3 p-2 pt-4 ml-auto">
             <Tilt>
-              <img src={myImg} className="img-fluid rounded-2xl" alt="avatar" />
+              <img src={myImg} className="img-fluid rounded-2xl" alt="avatar"/>
             </Tilt>
           </div>
 
@@ -64,7 +67,7 @@ function Home2() {
           <ul className="flex flex-row justify-center space-x-4 pt-15 relative pl-0">
             <li className="inline-block pr-15 pl-15">
               <a
-                href="https://github.com/MrSomnathRoy"
+                href="https://github.com/SomnathRoy-JU25"
                 target="_blank"
                 rel="noreferrer"
                 className="text-purple-800 relative w-10 h-10 flex items-center justify-center text-lg leading-10 bg-white border-2 border-purple-800 rounded-full transition duration-300 ease-in-out transform hover:scale-110 hover:shadow-lg"
