@@ -38,7 +38,7 @@ function Home() {
               <img
                 src={homeLogo}
                 alt="home pic"
-                className="img-fluid c:\Users\SOMNATH\Desktop\Resume.pdf rounded-full bg-transparent"
+                className="img-fluid max-h-450 rounded-full bg-transparent"
               />
             </div>
           </div>
