@@ -3,7 +3,7 @@ import Tilt from "react-parallax-tilt";
 import { AiFillGithub, AiOutlineTwitter, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 // import myImg from "../../Assets/MyPhoto.png";
-import myImg from "../../Assets/MyPhoto.png";
+import myImg from "../../Assets/MyPhoto.jpg";
 
 
 
