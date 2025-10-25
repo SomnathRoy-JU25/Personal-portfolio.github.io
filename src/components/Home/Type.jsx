@@ -9,8 +9,9 @@ function Type() {
           "Front-End Developer",
           "Back-End Developer",
           "Full-Stack Developer",
-          "Leetcoder",
-          "Tech Enthusiast"
+          "Machine Learning Enthusiast",
+          "Tech Enthusiast",
+          "Leetcoder"
         ],
         autoStart: true,
         loop: true,
